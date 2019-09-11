@@ -1,17 +1,28 @@
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 body {
-  background: black;
-  color: white;
+    background: black;
+    color: white;
 
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#new-lgtm {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#lgtm {
+    max-height: 100%;
+    overflow-y: auto;
 }
